@@ -1,9 +1,8 @@
 import { Container } from 'react-bootstrap';
-import './App.css';
 import Header from './components/Header';
 import UserForm from './components/UserForm';
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
@@ -12,6 +11,6 @@ function App() {
       </Container>
     </>
   );
-}
+};
 
 export default App;

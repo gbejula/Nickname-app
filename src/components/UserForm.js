@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 import FormContainer from './FormContainer';
 
 const UserForm = () => {
@@ -14,6 +14,7 @@ const UserForm = () => {
           <Form.Label>Year of nickname</Form.Label>
           <Form.Control type='text' placeholder='1990' />
         </Form.Group>
+        <Button>Add Nick</Button>
       </Form>
     </FormContainer>
   );
